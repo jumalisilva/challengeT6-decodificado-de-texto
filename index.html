@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/Logo.svg" type="image/x-icon">
+</head>
+<body>
+    <main class="main-container">
+        <header class="cabecalho">
+            <img src="./img/Logo.svg" alt="logo alura">
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+            </div>
+        </div>
+
+        <div id="output">
+            <img src="./img/High quality products 1 1.svg">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+        </div>
+        
+
+        <div class="alert">
+            <div class="texto-alert">
+                <img src="./img/Group.svg" alt="alerta">
+                <span>Apenas letras minúsculas e sem acento.</span>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+        <p class="footer-autor">© Desenvolvido por Julia Lima - 2024</p>
+
+        <nav>
+            <ul class="redes-sociais">
+                <li><a href="https://github.com/jumalisilva" class="github">
+                    <img src="./img/github.svg" alt="Github"></a>
+                </li>
+
+                <li><a href="https://linkedin.com/in/julia-lima-dev" class="linkedin">
+                    <img src="./img/linkedin.svg" alt="Linkedin"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>

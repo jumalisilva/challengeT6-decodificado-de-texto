@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --cor-background: #F3F5FC;
+    --cor-primaria: #0A3871;
+    --cor-secundaria: #D8DFE8;
+}
+
+body {
+    background: var(--cor-background);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho img {
+    max-width: 170px;
+    max-height: 170px;
+    width: auto;
+    height: auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 10%;
+}
+
+.container-input, .input {
+    width: 400px;
+    height: 330px;
+}
+
+textarea::placeholder {
+    color: var(--cor-primaria);
+}
+
+#input-texto {
+    width: 345px;
+    height: 330px;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--cor-primaria);
+    background: transparent;
+    box-shadow: none;
+    resize: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 400px;
+    height: 957px;
+    margin-right: 3%;
+    background: #FFFF;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 8px;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+}
+
+#output span {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.texto-alert {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5%;
+    gap: 8px;
+    color: #495057;
+}
+
+
+.container-btn {
+    padding: 24px;
+}
+
+.btn-criptografar {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 24px;
+    text-decoration: none;
+    width: 328px;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    background: var(--cor-primaria);
+    color: #FFFF;
+    gap: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 5px 2px -2px gray;
+}
+
+.btn-descriptografar {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 24px;
+    text-decoration: none;
+    width: 328px;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    gap: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 5px 2px -2px gray;
+}
+
+.btn-copiar {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 24px;
+    text-decoration: none;
+    width: 328px;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    background: transparent;
+    color: var(--cor-primaria);
+    gap: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 5px 2px -2px gray;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin: 10px;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rodape p {
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
