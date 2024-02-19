@@ -37,4 +37,4 @@
 <p><img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/></p>
 
 # Acesse o projeto
-<p>Acesse o projeto <a href="https://jumalisilva.github.io/challengeT6-decodificado-de-texto/">clicando aqui!</a></p>
+<p>Acesse o projeto <a href="https://jumalisilva.github.io/challengeT6-decodificador-de-texto/">clicando aqui!</a></p>
